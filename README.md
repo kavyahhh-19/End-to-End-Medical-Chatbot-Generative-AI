@@ -15,7 +15,7 @@ Project repo: https://github.com/
 
 
 ```bash
-conda create -n medibot python=3.13 -y
+conda create -n medibot python=3.10 -y
 ```
 
 
