@@ -9,9 +9,9 @@ from dotenv import load_dotenv
 from src.prompt import *
 import os
 
-print("🚀 Current working directory:", os.getcwd())
-print("📂 Files & folders here:", os.listdir())
-print("✅ Does 'templates/index.html' exist?:", os.path.exists('templates/index.html'))
+print("Current working directory:", os.getcwd())
+print("Files & folders here:", os.listdir())
+print("Does 'templates/index.html' exist?:", os.path.exists('templates/index.html'))
 
 app = Flask(__name__, template_folder='templates')
 
